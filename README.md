@@ -1,3 +1,12 @@
+A realtime 3D renderer with basic objects, implemented in HTML, JS, and WebGL.
+
+### Getting started
+After cloning the repository, `cd` into it, and run any basic webserver, e.g.
+```
+python3 -m http.server
+```
+Then enjoy the application at [http://127.0.0.1:8000/main.html](http://127.0.0.1:8000/main.html) :)
+
 ### Key bindings
 #### Free Flight
 **w**&emsp;Move forward (Press two times quickly for doubled speed)<br>
@@ -39,3 +48,5 @@
 **v**&emsp;Toggle specs view (default:off)<br>
 **m**&emsp;Toggle menu view (default:off)<br>
 **f**&emsp;Toggle fullscreen mode (default:off)
+
+Drop an `.obj`-file into it! Some example files can be found in `resources/meshes`. The application also supports exporting and importing (drop!) scenegraphs. Some examples can be found in `resources/scenegraphs`.
